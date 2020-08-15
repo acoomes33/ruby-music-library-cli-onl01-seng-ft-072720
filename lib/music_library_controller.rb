@@ -46,6 +46,7 @@ class MusicLibraryController
     artist.each_with_index do |s, i|
       puts "#{i+1}. #{s.name} - #{s.genre.name}"
     end 
-  end 
+  end
+end
   
 end 
