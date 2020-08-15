@@ -63,7 +63,7 @@ class MusicLibraryController
     puts "Which song number would you like to play?"
     input = gets.chomp.to_i
     if input == list_songs.index[0]
-    puts "Playing "
+    puts "Playing #{song.name} by #{song.artist.name}"
   end 
   
 end 
