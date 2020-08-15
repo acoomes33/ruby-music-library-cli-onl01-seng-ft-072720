@@ -22,7 +22,7 @@ class MusicLibraryController
   #CLI methods 
   
   def list_songs
-    puts self.sort
+    Song.all.sort {|a,b| a.name <=> b.name}
   end 
   
   def list_artists
