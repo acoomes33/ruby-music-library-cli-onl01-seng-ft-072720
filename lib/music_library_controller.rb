@@ -25,4 +25,8 @@ class MusicLibraryController
     Song.all.sort
   end 
   
+  def list_artists
+    
+  end 
+  
 end 
